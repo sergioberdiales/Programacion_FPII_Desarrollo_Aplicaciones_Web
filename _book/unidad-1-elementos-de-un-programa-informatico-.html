@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>1 Unidad 1. Elementos de un programa informático. | Programación - Desarrollo de Aplicaciones Web</title>
+  <meta name="description" content="1 Unidad 1. Elementos de un programa informático. | Programación - Desarrollo de Aplicaciones Web" />
+  <meta name="generator" content="bookdown 0.10 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="1 Unidad 1. Elementos de un programa informático. | Programación - Desarrollo de Aplicaciones Web" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="1 Unidad 1. Elementos de un programa informático. | Programación - Desarrollo de Aplicaciones Web" />
+  
+  
+  
+
+<meta name="author" content="Sergio Berdiales" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html">
+<link rel="next" href="unidad-2-programacion-en-java-primeros-pasos-.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {  }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html"><i class="fa fa-check"></i><b>1</b> Unidad 1. Elementos de un programa informático.</a><ul>
+<li class="chapter" data-level="1.1" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#resumen-del-contenido."><i class="fa fa-check"></i><b>1.1</b> Resumen del contenido.</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#introduccion-1"><i class="fa fa-check"></i><b>1.1.1</b> 1. Introducción</a></li>
+<li class="chapter" data-level="1.1.2" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#programas-y-programacion"><i class="fa fa-check"></i><b>1.1.2</b> 2. Programas y programación</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#ejercicios."><i class="fa fa-check"></i><b>1.2</b> Ejercicios.</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#ejercicios-i.-algoritmos-iniciales-pseudocodigo"><i class="fa fa-check"></i><b>1.2.1</b> Ejercicios-I. Algoritmos iniciales (pseudocódigo)</a></li>
+<li class="chapter" data-level="1.2.2" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#ejercicios-ii.-algoritmos---pseudocodigo"><i class="fa fa-check"></i><b>1.2.2</b> Ejercicios-II. Algoritmos - Pseudocódigo</a></li>
+<li class="chapter" data-level="1.2.3" data-path="unidad-1-elementos-de-un-programa-informatico-.html"><a href="unidad-1-elementos-de-un-programa-informatico-.html#ejercicios-iii.-programacion-modular."><i class="fa fa-check"></i><b>1.2.3</b> Ejercicios-III. Programación modular.</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="unidad-2-programacion-en-java-primeros-pasos-.html"><a href="unidad-2-programacion-en-java-primeros-pasos-.html"><i class="fa fa-check"></i><b>2</b> Unidad 2. Programación en Java - Primeros pasos.</a><ul>
+<li class="chapter" data-level="2.1" data-path="unidad-2-programacion-en-java-primeros-pasos-.html"><a href="unidad-2-programacion-en-java-primeros-pasos-.html#resumen-del-contenido.-1"><i class="fa fa-check"></i><b>2.1</b> Resumen del contenido.</a></li>
+<li class="chapter" data-level="2.2" data-path="unidad-2-programacion-en-java-primeros-pasos-.html"><a href="unidad-2-programacion-en-java-primeros-pasos-.html#ejercicios.-1"><i class="fa fa-check"></i><b>2.2</b> Ejercicios.</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="unidad-2-programacion-en-java-primeros-pasos-.html"><a href="unidad-2-programacion-en-java-primeros-pasos-.html#ejercicios-i"><i class="fa fa-check"></i><b>2.2.1</b> Ejercicios-I</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Programación - Desarrollo de Aplicaciones Web</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="unidad-1.-elementos-de-un-programa-informatico." class="section level1">
+<h1><span class="header-section-number">1</span> Unidad 1. Elementos de un programa informático.</h1>
+<div id="resumen-del-contenido." class="section level2">
+<h2><span class="header-section-number">1.1</span> Resumen del contenido.</h2>
+<div id="introduccion-1" class="section level3">
+<h3><span class="header-section-number">1.1.1</span> 1. Introducción</h3>
+</div>
+<div id="programas-y-programacion" class="section level3">
+<h3><span class="header-section-number">1.1.2</span> 2. Programas y programación</h3>
+<p><strong>Algoritmo:</strong> Secuencia ordenada de pasos, descrita sin ambigüedades, que conducen a la solución de un problema dado.</p>
+<p>Los algoritmos son independientes de los lenguajes de programación y de las computadoras donde se ejecutan.</p>
+<p>La diferencia fundamental entre algoritmo y <strong>programa</strong> es que, en el segundo, los pasos que permiten resolver el problema, deben escribirse en un determinado <strong>lenguaje de programación</strong> para que puedan ser ejecutados en el ordenador y así obtener la solución.</p>
+<p>###. Fases de la programación</p>
+<ul>
+<li><strong>Fase de resolución del problema.</strong>
+<ul>
+<li>Análisis. Fase de especificación de requisitos. Qué datos necesitamos como entradas, qué información tendremos como salida final.</li>
+<li>Diseño. Codificación del algoritmo de forma detallada. En esta fase se incluye la prueba o traza del programa, que deberá realizarse tantas veces sea necesaria para detectar errores y resolverlos antes de la fase de implementación. Y consiste en la</li>
+</ul></li>
+<li><strong>Fase de implementación.</strong></li>
+<li><strong>Fase de explotación.</strong></li>
+</ul>
+</div>
+</div>
+<div id="ejercicios." class="section level2">
+<h2><span class="header-section-number">1.2</span> Ejercicios.</h2>
+<div id="ejercicios-i.-algoritmos-iniciales-pseudocodigo" class="section level3">
+<h3><span class="header-section-number">1.2.1</span> Ejercicios-I. Algoritmos iniciales (pseudocódigo)</h3>
+<p><strong>1.- Construir un algoritmo que tome como dato de entrada un número que corresponde a la longitud de un radio y nos calcula y escribe la longitud de la circunferencia, el área del círculo y el volumen de la esfera.</strong></p>
+<p><span class="math inline">\(l=2*pi*r\)</span><br />
+<span class="math inline">\(a=pi*r2\)</span><br />
+<span class="math inline">\(v=4/3*pi*r3\)</span></p>
+<p>Solución con pseudocódigo</p>
+<p>“/pseudo_code_exercises/ud_1_ejercicio_1.psc”</p>
+<pre class="sourceCode r"><code class="sourceCode r">Algoritmo calculos_radio
+    
+    Escribir <span class="st">&quot;Ingrese la longitud del radio:&quot;</span>
+    Leer A
+    
+    l &lt;-<span class="st"> </span><span class="dv">2</span><span class="op">*</span><span class="fl">3.1416</span><span class="op">*</span>A
+    a &lt;-<span class="st"> </span><span class="fl">3.1416</span><span class="op">*</span>A<span class="op">^</span><span class="dv">2</span>
+    v &lt;-<span class="st"> </span>(<span class="dv">4</span><span class="op">/</span><span class="dv">3</span>)<span class="op">*</span><span class="fl">3.1416</span><span class="op">*</span>A<span class="op">^</span><span class="dv">3</span>
+    
+    Escribir <span class="st">&quot;La longitud de la circunferencia es: &quot;</span>,l
+    Escribir <span class="st">&quot;El área de la circunferencia es: &quot;</span>,a
+    Escribir <span class="st">&quot;El volumen de la esfera es: &quot;</span>,v
+    
+FinAlgoritmo</code></pre>
+<p>Solución con R</p>
+<pre class="sourceCode r"><code class="sourceCode r">calculos_radio &lt;-<span class="st"> </span><span class="cf">function</span>(r) {
+  
+  l =<span class="st"> </span><span class="dv">2</span><span class="op">*</span>pi<span class="op">*</span>r
+  a =<span class="st"> </span>pi<span class="op">*</span>r<span class="op">**</span><span class="dv">2</span>
+  v =<span class="st"> </span>(<span class="dv">4</span><span class="op">/</span><span class="dv">3</span>)<span class="op">*</span>pi<span class="op">*</span>r<span class="op">**</span><span class="dv">3</span>
+  
+  <span class="kw">print</span>(<span class="kw">c</span>(l, a, v))
+}
+
+<span class="kw">calculos_radio</span>(<span class="dv">3</span>)</code></pre>
+<pre><code>## [1]  18.84956  28.27433 113.09734</code></pre>
+<p>Solución con Python</p>
+<pre class="sourceCode python"><code class="sourceCode python">
+<span class="im">import</span> math
+
+<span class="kw">def</span> calculos_radio(r):
+  
+  l <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>math.pi<span class="op">*</span>r
+  a <span class="op">=</span> math.pi<span class="op">*</span>r<span class="op">**</span><span class="dv">2</span>
+  v <span class="op">=</span> (<span class="dv">4</span><span class="op">/</span><span class="dv">3</span>)<span class="op">*</span>math.pi<span class="op">*</span>r<span class="op">**</span><span class="dv">3</span>
+  
+  <span class="bu">print</span>(l, a, v)
+
+
+calculos_radio(<span class="dv">3</span>)</code></pre>
+<pre><code>## 18.84955592153876 28.274333882308138 113.09733552923254</code></pre>
+<p><strong>2.- Construir un algoritmo que leído un número por teclado nos diga si es positivo, negativo o nulo.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>“/pseudo_code_exercises/ud_1_ejercicio_1.psc”</p>
+<pre class="sourceCode r"><code class="sourceCode r">Algoritmo numero_signo
+    Escribir <span class="st">&quot;Introduzca un número entero:&quot;</span>
+    Leer A
+    Si A <span class="op">&gt;</span><span class="st"> </span><span class="dv">0</span> Entonces
+        Escribir <span class="st">&quot;El número introducido es positivo.&quot;</span>
+    SiNo
+        Si A <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span> Entonces
+            Escribir <span class="st">&quot;El número introducido es negativo.&quot;</span>
+        SiNo
+            Escribir <span class="st">&quot;El número introducido es nulo.&quot;</span>   
+        Fin Si  
+    Fin Si
+    
+FinAlgoritmo</code></pre>
+<p>Solución con R</p>
+<pre class="sourceCode r"><code class="sourceCode r">numero_signo &lt;-<span class="st"> </span><span class="cf">function</span>(num) {
+  
+  <span class="cf">if</span> (num <span class="op">&gt;</span><span class="st"> </span><span class="dv">0</span>) {
+    
+    <span class="kw">print</span>(<span class="st">&quot;El número introducido es positivo.&quot;</span>)
+    
+  } <span class="cf">else</span> <span class="cf">if</span> (num <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>) {
+    
+    <span class="kw">print</span>(<span class="st">&quot;El número introducido es negativo.&quot;</span>)
+ 
+  } <span class="cf">else</span> {
+    
+    <span class="kw">print</span>(<span class="st">&quot;El número introducido es nulo.&quot;</span>)
+    
+  } 
+}
+
+<span class="kw">numero_signo</span>(<span class="op">-</span><span class="dv">2</span>)</code></pre>
+<pre><code>## [1] &quot;El número introducido es negativo.&quot;</code></pre>
+<p>Solución con Python</p>
+<pre class="sourceCode python"><code class="sourceCode python">
+<span class="kw">def</span> numero_signo(num):
+
+    <span class="cf">if</span> num <span class="op">&gt;</span> <span class="dv">0</span>:
+    
+      <span class="bu">print</span>(<span class="st">&quot;El numero introducido es positivo.&quot;</span>)
+      
+    <span class="cf">elif</span> num <span class="op">==</span> <span class="dv">0</span>:
+    
+      <span class="bu">print</span>(<span class="st">&quot;El numero introducido es nulo.&quot;</span>)
+      
+    <span class="cf">else</span>:
+    
+      <span class="bu">print</span>(<span class="st">&quot;El numero introducido es negativo.&quot;</span>)
+
+  
+numero_signo(<span class="op">-</span><span class="dv">8</span>)</code></pre>
+<pre><code>## El numero introducido es negativo.</code></pre>
+<p><strong>3.- Construir un algoritmo para calcular y escribir la suma de los 100 primeros números naturales. Utilizar las estructuras PARA, MIENTRAS Y REPETIR.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>4.- Construir un algoritmo para sumar independientemente los números pares y los impares comprendidos entre 1 y 100. Visualizar los resultados.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>5.- Construir un algoritmo que leídos tres números introducidos por teclado me visualice el mayor.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>6.- Construir un algoritmo para visualizar los N primeros múltiplos de 4, donde N es un número que se lee por teclado.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>7.- Construir un algoritmo para introducir una serie de números, que finaliza al leer el número 0. Una vez que ha finalizada la captura de números queremos saber cuantos había mayores, iguales y menores que 50.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p>__8.- Escribir un algoritmo que lea una temperatura en grados Fahrenheit y escriba su equivalente en grados centígrados C=(F-32)*5/9__</p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>9.- Hacer un algoritmo que calcule el sueldo neto semanal de un trabajador a partir de la lectura de las horas trabajadas y el precio por hora. Para el cálculo del sueldo neto hay que tener en cuenta los siguientes datos:</strong></p>
+<ul>
+<li>Las primeras 35 horas se pagan al precio dado (precio normal).<br />
+</li>
+<li>Las horas que pasen de 35 se pagan a 1,5 de la tarifa normal.<br />
+</li>
+<li><p>Las tasas de impuestos son:</p>
+<p>o Los primeras 5000€ son libres de impuestos.<br />
+o Entre 5000€ u 10000€ tienen un impuesto del 5%.<br />
+o Lo que sobrepase de 10000€ tiene un impuesto del 15%.</p></li>
+</ul>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>10.- Diseñar el algoritmo de un programa que lee un número entero positivo y determina el número
+de dígitos necesarios para la representación de ese valor.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+</div>
+<div id="ejercicios-ii.-algoritmos---pseudocodigo" class="section level3">
+<h3><span class="header-section-number">1.2.2</span> Ejercicios-II. Algoritmos - Pseudocódigo</h3>
+<p><strong>11.- Imaginemos que queremos desarrollar un algoritmo tal que al escribir un día de la semana aparezca por pantalla la actividad extraescolar a la que debe acudir nuestro hijo. Por ejemplo, si ejecutamos el programa y escribimos martes que aparezca “natación”.</strong></p>
+<p>Las actividades que se realizan por días son:
+lunes: psicomotricidad jueves: natación
+martes: natación viernes: descanso
+miércoles: música</p>
+<p>Los días sábado y domingo no se realizan actividades con lo que si el usuario escribe por error alguno
+de estos días de la semana se debe mostrar el mensaje: “Día sin actividades”. Si por equivocación,
+además se escribe un día inexistente se debe mostrar en pantalla “Día erróneo”.
+Tener en cuenta las mayúsculas, minúsculas y tildes. No es lo mismo lunes que Lunes, ni miércoles
+que miercoles. Esto es así porque el carácter ‘l’ es distinto del carácter ‘L’ en el código ASCII que es el
+que se usa para representarlos.</p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>12.- Para realizar la traza se ha de hacer un seguimiento de los valores que toman las variables simulando manualmente la ejecución del algoritmo, es decir, siguiendo el flujo de ejecución del mismo.</strong>
+<strong>Haz la traza del siguiente programa e indica qué valores toman las variables y qué escribe, suponiendo que a “a” se le da el valor 5. Continúa rellenando la tabla.</strong></p>
+<pre class="sourceCode r"><code class="sourceCode r"><span class="kw">include_graphics</span>(<span class="st">&quot;./imgs/ud_1_exercise_11_img.png&quot;</span>)</code></pre>
+<p><img src="imgs/ud_1_exercise_11_img.png" width="300px" height="250px" /></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>13.- Realiza un algoritmo que nos indique si un año determinado es bisiesto, debemos pedir al usuario el año. Un año es bisiesto si es múltiplo de 4, a excepción de los que siendo múltiplos de 4 también son múltiplos de 100 pero no de 400.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>14.- Realiza un algoritmo que pida al usuario una hora en elementos separados (hora 0-23, minutos 0-59 y segundos 0-59). A continuación se debe mostrar por pantalla qué hora será pasado un minuto.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>15.- Realiza la traza de seguimiento del ejercicio anterior. Usa valores extremos, por ejemplo 23 horas 59 minutos 10 segundos, o 0 horas 3 minutos y 59 segundos o las 5 horas 59 minutos 24 segundos.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>16.- Realiza un algoritmo que dé solución al cálculo del factorial de un número entero.</strong>
+<strong>n! = n x (n-1) x (n-2) x … x 1 Realiza una versión con un bucle PARA y otra con un bucle MIENTRAS.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>17.- Realiza un algoritmo que dé solución al problema de calcular la multiplicación de dos números mediante el uso de sumas sucesivas.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>18.- Realiza un algoritmo que pida dos números X e Y de forma que se pretende calcular <span class="math inline">\(X^Y\)</span> suponiendo que no existe el operador de potencia.</strong>
+<strong>X puede ser cualquier número entero distinto de 0.</strong>
+<strong>Y puede ser cualquier entero positivo, negativo o nulo.</strong></p>
+<p><strong>(Recuerda que <span class="math inline">\(X^0 =1, X-Y=1/X^Y\)</span>)</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>19.- Algoritmo que lea un valor entero que represente la posición ordinal de un mes (1,2,…12) y nos diga cuantos días tiene ese mes, o un mensaje de error si el valor del mes es incorrecto. Para febrero se indicará 28 o 29 días.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>20.- Diseñar un algoritmo para jugar a la adivinanza de números. El ordenador generará un número al azar, entre 0 y 15, y el usuario tendrá que adivinar cuál es. Se dispondrá de todas las oportunidades que quiera y el programa tendrá que ir diciendo si se ha pasado o se quedó corto en cada intento. Finalmente cuando consiga acertarlo se deberá mostrar un mensaje de felicitación y el número de intentos que necesitó. Para generar el número al azar supondremos una función AZAR(x) que genera un número aleatorio entre 0 y x-1.</strong></p>
+<p><strong>Como al menos se deberá de repetir una vez el intento de acierto, es más adecuado una estructura REPETIR ..HASTA/MIENTRAS. En cada repetición se pide al usuario el número y se compara con el que hay que acertar, incrementando el número de intentos. Con una estructura SI se comprueba si se pasó, se quedó corto o lo acertó. La condición de salida de REPETIR será que se haya acertado.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+</div>
+<div id="ejercicios-iii.-programacion-modular." class="section level3">
+<h3><span class="header-section-number">1.2.3</span> Ejercicios-III. Programación modular.</h3>
+<p><strong>21.- Dados dos valores numéricos reales almacenados en dos variables de nombre a y b, hacer un programa que llame a una función de nombre Cambiar(v1, v2) a la que se le pasan como parámetros dichas variables e intercambia sus valores, mostrando el resultado.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>22.- Escribe un programa con diseño modular que recoja por teclado dos números reales y presente una serie de opciones correspondientes a operaciones aritméticas a realizar con las mismas:</strong></p>
+<ol style="list-style-type: decimal">
+<li>Sumar</li>
+<li>Restar</li>
+<li>Multiplicar</li>
+<li>Dividir
+En función de la operación elegida, se llama a la función correspondiente que retorna el valor del resultado de dicha operación, que se muestra en el programa principal.</li>
+</ol>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>23.- Escribir un programa que utilice una función recursiva para calcular y retornar la potencia de un número real distinto de cero, siendo su exponente entero y positivo.</strong></p>
+<p>Xn = X * X n-1
+X0 = 1</p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>24.- Realizar un programa que disponga de una función llamada esBisiesto que reciba un año y devuelva cierto si es bisiesto y falso si no lo es. Realizado en el Ejercicio 13: Los años que sean divisibles por 4 serán bisiestos; aunque no serán bisiestos si son divisibles entre 100 (como los años 1700, 1800, 1900, 2100) a no ser que sean divisibles por 400 (como los años 1600, 2000, 2400).</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+<p><strong>25.- Construir un algoritmo que calcule el número “e”, la base de los logaritmos neperianos, calcular a partir de la siguiente aproximación:</strong>
+e= 1 + 1/1! + 1/2! +1/3! + …… + 1/N!
+<strong>siendo N un número entero positivo mayor que 10 que se pedirá por teclado. Utilizar una función para calcular los factoriales correspondientes a los denominadores de los términos.</strong></p>
+<p>Solución con pseudocódigo</p>
+<p>Solución con R</p>
+<p>Solución con Python</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="unidad-2-programacion-en-java-primeros-pasos-.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:" && /^https?:/.test(src))
+      src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

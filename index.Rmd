@@ -1,0 +1,19 @@
+---
+title: "Programación - Desarrollo de Aplicaciones Web"
+author: "Sergio Berdiales"
+site: bookdown::bookdown_site
+documentclass: book
+output:
+  bookdown::gitbook: default
+  #bookdown::pdf_book: default
+---
+
+# Introducción {-}
+
+En este documento voy a ir incluyendo mis notas y ejercicios prácticos de la asignatura "Programación" del primer curso del Módulo de FPII de Desarrollo de Aplicaciones Web.
+
+Me matriculé en este módulo de formación profesional en la modalidad a distancia en octubre de 2019 en el Centro Integrado de Formación Profesional de la Universidad Laboral de Gijón. 
+
+Además de hacer los ejercicios en los lenguajes requeridos durante el curso  procuraré replicarlos también en los lenguajes que habitualmente utilizo en mi actividad profesional, R y Python.   
+
+Mi intención principal al matricularme de este módulo no es la de convertirme en programador de aplicaciones web. Mi objetivo es adquirir una base más sólida de conocimientos teóricos y prácticos de programación que me ayuden en mi día a día profesional como científico de datos. 
