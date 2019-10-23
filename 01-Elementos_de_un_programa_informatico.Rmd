@@ -11,9 +11,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Resumen del contenido.
 
-### 1. Introducción
+### Introducción
 
-### 2. Programas y programación
+### Programas y programación
 
 __Algoritmo:__ Secuencia ordenada de pasos, descrita sin ambigüedades, que conducen a la solución de un problema dado.  
 
@@ -21,7 +21,7 @@ Los algoritmos son independientes de los lenguajes de programación y de las com
 
 La diferencia fundamental entre algoritmo y __programa__ es que, en el segundo, los pasos que permiten resolver el problema, deben escribirse en un determinado __lenguaje de programación__ para que puedan ser ejecutados en el ordenador y así obtener la solución.
 
-###. Fases de la programación
+### Fases de la programación
 
 - __Fase de resolución del problema.__
   - Análisis. Fase de especificación de requisitos. Qué datos necesitamos como entradas, qué información tendremos como salida final. 
