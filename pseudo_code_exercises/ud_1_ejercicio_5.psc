@@ -1,7 +1,7 @@
 //5.- Construir un algoritmo que leídos tres números introducidos
 // por teclado me visualice el mayor.
 
-Proceso Ejercicio_5
+Proceso numero_mayor
 	Definir n1,n2,n3 como entero
 	Escribir "Introduce el primer número"
 	Leer n1

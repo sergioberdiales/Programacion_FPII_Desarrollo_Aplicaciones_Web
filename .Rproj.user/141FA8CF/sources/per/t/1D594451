@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1571826062377.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3770302024",
+    "id" : "1D594451",
+    "lastKnownWriteTime" : 1571827411,
+    "last_content_update" : 1571827411587,
+    "path" : "G:/Mi unidad/0_Aprendiendo/FPII/Programacion_FPII_Desarrollo_Aplicaciones_Web/index.Rmd",
+    "project_path" : "index.Rmd",
+    "properties" : {
+        "cursorPosition" : "22,305",
+        "scrollLine" : "5"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,7 +1,7 @@
 //4.- Construir un algoritmo para sumar independientemente los números pares y los impares
 //comprendidos entre 1 y 100. Visualizar los resultados.
 
-Proceso Ejercicio_4
+Proceso suma_pares_impares
 	suma_par<-0
 	suma_impar<-0
 	Para i<-1 Hasta 100 Con Paso 1 Hacer

@@ -1,0 +1,3 @@
+"0",""
+"0","#data <- data %>% select(-last_minute_calls_0,                    -last_minute_calls_1,-last_minute_calls_2,-last_minute_calls_3)"
+"0",""

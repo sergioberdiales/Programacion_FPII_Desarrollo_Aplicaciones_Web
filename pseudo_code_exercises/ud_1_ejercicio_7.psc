@@ -1,6 +1,6 @@
 //7.- Construir un algoritmo para introducir una serie de números, que finaliza al leer el número 0. Una
 //vez que ha finalizada la captura de números queremos saber cuantos había mayores, iguales y menores que 50.
-Proceso Ejercicio_7
+Proceso comparacion_numero_50
 	mayores<-0
 	menores<-0
 	iguales<-0

@@ -1,0 +1,7 @@
+"0",""
+"0","#variables_87 <- names(model_data_4)"
+"0","#saveRDS(variables_87, ""rds_files/variables_87.rds"")"
+"0",""
+"0","variables_87 <- read_rds(""rds_files/variables_87.rds"")"
+"2","Error in gzfile(file, ""rb"") : cannot open the connection
+"
